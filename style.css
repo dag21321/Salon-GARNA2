@@ -1,0 +1,254 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  margin: 0;
+}
+
+.logo {
+  font-size: 225%;
+  color: white;
+  text-shadow: 0 0 0.25rem #ffffff, 0 0 0.5rem #cccccc, 0 0 0.75rem #999999;
+  transition: text-shadow 0.3s ease;
+  cursor: default;
+  margin: 1.5rem 0rem 0rem 2rem;
+}
+
+.logo:hover {
+  text-shadow: 0 0 0.35rem #ffffff, 0 0 0.7rem #ffffff, 0 0 1rem #cccccc,
+    0 0 1.5rem #999999;
+}
+
+.button {
+  color: grey;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 2rem 0.5rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0rem 0rem 0rem;
+  font-size: 110%;
+}
+
+nav a {
+  font-size: 115%;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  font-size: 130%;
+  text-shadow: 0 0 0.25rem #ffffff, 0 0 0.5rem #cccccc, 0 0 0.75rem #999999;
+}
+
+.bs {
+  background-color: #121212;
+  padding: 7%;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 2rem;
+}
+
+.bs p {
+  font-size: 100%;
+}
+
+.button {
+  color: grey;
+}
+
+main {
+  color: white;
+  background-color: black;
+  padding: 1%;
+}
+
+.ab {
+  padding: 3%;
+}
+
+.text {
+  padding: 0% 0% 5% 3%;
+  font-size: 135%;
+}
+
+footer {
+  background-color: #121212;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9,
+.btn10,
+.btn11,
+.btn12,
+.btn13,
+.btn14 {
+  width: 19rem;
+  height: 10rem;
+  font-weight: 900;
+  font-size: 1.7rem;
+  box-shadow: -0.6rem 0.6rem 1rem 0rem black;
+  background-size: cover;
+  color: white;
+  text-shadow: -0.2rem 0.2rem 0.5rem black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.btn1 {
+  background-image: url("https://brennerclinic.com.ua/images/other/guby2.jpg");
+}
+.btn2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBFqidwwW396p6nTnzkw6p59GMm-KnT5o8YQ&s");
+}
+.btn3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkxeO7USOeZ9zhoVRVKPOx2mpZ1KcgLDvfw&s");
+}
+.btn4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0slthU8sbU7Uu-Fyd3C6YksHGmQ8w9I18Tg&s");
+}
+.btn5 {
+  background-image: url("https://brennerclinic.com.ua/images/services/004_651d52c9da0e1.jpg");
+}
+.btn6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl2jVFI-YC1IANtP5aql8r4ENw6_dShX0k2A&s");
+}
+.btn7 {
+  background-image: url("https://excellence-clinic.com.ua/wp-content/uploads/2020/09/%D0%B4%D0%BE-%D0%B8-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-10.jpg");
+}
+.btn8 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZO6bAMPiBArd5wN9mWKVtSX35cF9UPvqow&s");
+}
+.btn9 {
+  background-image: url("https://anacosmo.ua/wp-content/uploads/2020/09/niti-anacosma-1024x512.jpg");
+}
+.btn10 {
+  background-image: url("https://goldlaser.com.ua/images/2019/01/mezoniti.jpg");
+}
+.btn11 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRelfgc2wijgWVMcC8bxTJSoAN90ivYBwjalQ&s");
+}
+.btn12 {
+  background-image: url("https://profderm.net.ua/wp-content/uploads/2021/10/karboksiterapiya.jpg");
+}
+.btn13 {
+  background-image: url("https://tetyanalutsyk.com.ua/img/services/covers/382ea799.jpg");
+}
+.btn14 {
+  background-image: url("https://elit.dp.ua/images/azelainoviy-piling.jpg");
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover,
+.btn10:hover,
+.btn11:hover,
+.btn12:hover,
+.btn13:hover,
+.btn14:hover {
+  width: 20rem;
+  height: 11rem;
+  font-size: 1.8rem;
+  box-shadow: 0 0 0.35rem #ffffff, 0 0 0.7rem #ffffff, 0 0 1rem #cccccc,
+    0 0 1.5rem #999999;
+}
+
+.sect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.dialog {
+  width: 400px;
+  height: 400px;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: #121212;
+}
+
+.close {
+  padding: 0.5rem 1.5rem;
+  transform: translateX(10rem) translateY(8rem);
+  transition: all 0.2s ease;
+  border: none;
+  border-radius: 0.5rem;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.close:hover {
+  padding: 0.7rem 1.7rem;
+  transform: translateX(9.8rem) translateY(7.9rem);
+  background: #c9c9c9;
+}
+
+.img1 {
+  transform: translateX(2rem) translateY(5rem);
+  width: 40%;
+  height: 30%;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.img1:hover {
+  width: 41%;
+  height: 31%;
+}
+
+.img2 {
+  transform: translateX(2.75rem) translateY(5rem);
+  width: 40%;
+  height: 30%;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.img2:hover {
+  width: 41%;
+  height: 31%;
+}
+
+.dtext {
+  color: white;
+  transform: translateY(2rem);
+  font-weight: 500;
+  text-align: center;
+  font-size: 100%;
+}
